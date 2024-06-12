@@ -45,7 +45,7 @@ def cleanMaskUI(maskName, obsName, outMaskName=None, inExcludeName=None,
     :return: a Mask object with the cleaned mask,
              and an ExcludeMaskRegions with the selected exclude regions.
     """
-    
+    print('Test output')
     if outMaskName is None:
         if isinstance(maskName, maskTools.Mask):
             outMaskName = 'mask.clean'
